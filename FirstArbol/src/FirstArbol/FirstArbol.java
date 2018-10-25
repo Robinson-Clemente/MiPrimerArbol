@@ -9,12 +9,6 @@ public class FirstArbol {
        
         
         
-        
-        
-        
-        
-        
-        
     }
     
 }
