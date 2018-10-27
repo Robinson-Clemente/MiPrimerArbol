@@ -29,6 +29,12 @@ public class FirstArbol {
         left = pila.pop();
         raiz = ArbolBinario.nuevoArbol(left, "A", right);
         ArbolBinario arboltotal = new ArbolBinario(raiz);
+        System.out.println("----------------PRE ORDEN");
+        ArbolBinario.preOrden(raiz);
+        System.out.println("----------------IN ORDEN");
+        ArbolBinario.inOrden(raiz);
+        System.out.println("---------------- POST ORDEN");
+        ArbolBinario.postOrden(raiz);
         
         
     }
